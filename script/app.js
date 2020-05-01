@@ -7,10 +7,10 @@ if ('addEventListener' in window) {
 }
 
 var app = angular.module("myApp",[]);
-    app.controller("myController",function($scope){
-        $.getJSON("script/data.json", function(res) {
-            $scope.$apply(function(){
-                $scope.ME = res;
-            });
+app.controller( "myController", function($scope){
+    $.getJSON("script/profile.json", function(res) {
+        $scope.$apply(function(){
+            $scope.ME = res;
         });
     });
+});

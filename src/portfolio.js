@@ -5,12 +5,15 @@
 
 import emoji from "react-easy-emoji";
 
+const me = {
+  firstName : "Ayoub", lastName : "BENYAS", fullName : "Ayoub BENYAS"
+}
+
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hello welcome, I'm Ayoub ",
+  title: `Hello world, I'm ${me.firstName} ` ,
   subTitle: emoji("A Student Engineer 👨🏻‍🎓 and software developer  💻 with good experience in the development of simple Web and mobile applications\
-   using JavaScript / Angular / Nodejs / React / Ionic, \
-   And looking for a summer internship to enrich my professionanl experience"),
+   using 🔥 JavaScript / Angular / Nodejs / React / Ionic 🔥."),
   resumeLink: "#greeting"
 };
 
@@ -28,7 +31,7 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
+  title: "What i do 💪",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("👾 Develop interactive Front (user) and Back end interfaces for web and hybrid mobile applications"),
@@ -151,9 +154,15 @@ const bigProjects = {
   subtitle: "SOME MODEST PROJECTS THAT I CREATED OR I HELPED TO THEIR TECH",
   projects: [
     {
+      title : "Course management system (CMS) platform",
       image: "https://i.ibb.co/qmFKZmW/logo-word.png",
       link: "#"
     },
+    {
+      title : "Collecting YouTube videos data via the YouTube API",
+      image: "https://i.ibb.co/p1CBDCq/youtube-data-api.png",
+      link: "#"
+    }
   ]
 };
 
@@ -161,48 +170,46 @@ const bigProjects = {
 
 const educationSection = {
 
-  title: emoji("Education 🏫 "),
-  subtitle: "Some education stations and formations that i'm satisfied with and proud of ",
+  title: emoji("Education 🎓"),
+  subtitle: "Some education stations and formations that i'm very satisfied with and proud of ",
 
   educationsCards: [
     {
       title: "National school For Computer Science - Rabat",
       subtitle: "Web Engineering and Mobile Computing (IWIM)",
-      image: "https://cdn-04.9rayti.com/rsrc/cache/widen_292/uploads/2012/07/ensias.png",
+      image: "https://i.ibb.co/GCq5crr/ensias.png",
       footerLink: [
-        { name: "Engineering Degree", finish : false},
+        { name: "Engineering Degree", finish : false, time: "2019 - 2022"},
       ]
     },
     {
-      title: "Faculty of Fcience Semlalia - Marrakech",
+      title: "Faculty of Science Semlalia - Marrakech",
       subtitle: "Mathematical and computer sciences",
-      image: "https://lh3.googleusercontent.com/proxy/C9X49ZuK6bKywCg-Ppn3rSPpuwp9W214Xx32fQGRTpyvyduCdAVhahFALjdkPhkwBG44cZ4FT16xEauoGMkzavpDBIh65zscvaJoFw",
+      image: "https://i.ibb.co/dgBwxzt/fssm.png",
       footerLink: [
-        { name: "Licence", finish : true},
-        { name: "Diploma of General University Studies", finish : true}
+        { name: "Licence", finish : true , time: "2018 - 2019"},
+        { name: "Diploma of General University Studies", finish : true , time: "2016 - 2018"}
       ]
     },
   ]
 };
 
-// Blogs Section
+// Experience Section
 
 const blogSection = {
 
-  title: "Experience",
-  subtitle: "With Love for Developing cool stuff. i love to write and teach others what i have learned",
+  title: "Experience and Internships 💼",
+  subtitle: "Actually i didn't do lot of internships ,but the one that i did was a great experience",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
+      url: "https://drive.google.com/open?id=1J25D3FZg-GGbxtnZujPcbN-T_dJnJL0v",
+      title: "Ge🌍graphic Information System (GIS) at the Service of Rural Development.",
+      description: "The main objective of this internship is the conception and implementation of a GIS 🗺️ \
+      (Geographic Information System) that will enable the collection, management, manipulation, analysis📊,\
+       modelling and display of spatially referenced data in order to solve complex problems of planning and\
+        management of rural communities."
     },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT Is The Best?",
-      description: "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
   ]
 };
 
@@ -248,4 +255,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, openSource, bigProjects, educationSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { me, greeting, socialMediaLinks, skillsSection, techStack, openSource, bigProjects, educationSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

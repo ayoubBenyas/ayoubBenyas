@@ -13,7 +13,7 @@ export default function Blogs() {
         <p className="subTitle blog-subtitle">{blogSection.subtitle}</p>
       </div>
       <div className="blog-main-div">
-        <div className="blog-text-div">
+        <div className="blog-text-div" class="row">
           {blogSection.blogs.map(blog => {
             return (
               <BlogCard

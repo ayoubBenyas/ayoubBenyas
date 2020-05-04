@@ -27,7 +27,7 @@ export default function StackProgress() {
                 </div>
 
                 <div className="skills-image">
-                    <img alt="Skills" src={require("../../assests/images/percentages.png")} />
+                    <img alt="Skills" src={require("../../assests/images/percentages.svg")} />
                 </div>
 
             </div>

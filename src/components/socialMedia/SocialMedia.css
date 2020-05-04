@@ -27,6 +27,10 @@
   margin-bottom: 10px;
 }
 
+.icon-button i:hover{
+  background-color: #36a592;
+}
+
 .facebook i {
   background-color: #3b5998;
 }

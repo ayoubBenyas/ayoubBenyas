@@ -15,17 +15,21 @@ export default function StartupProject() {
       <div>
         <h1 className="skills-heading">{bigProjects.title}</h1>
         <p className="subTitle project-subtitle">{bigProjects.subtitle}</p>
-        <div className="startup-projects-main">
-          <div className="startup-project-text">
+        <div class="row">
             {bigProjects.projects.map(project => {
               return (
-                <div className="saaya-health-div" /*onClick={() => openProjectInNewWindow(project.link)}*/>
-                  <img alt="Saad Working" src={project.image}></img>
+                <div class="col s12 m6 l4">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src={project.image}/>
+                    </div>
+                    <div class="card-action">
+                      {project.title}
+                    </div>
+                  </div>
                 </div>
               );
             })}
-          </div>
-          <div className="starup-project-image"></div>
         </div>
       </div>
     </div>

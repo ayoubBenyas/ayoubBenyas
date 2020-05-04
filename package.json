@@ -1,5 +1,5 @@
 {
-  "name": "ayoubbenyas.github.io",
+  "name": "ayoub-benyas",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,11 +20,6 @@
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "color":{
-    "main" : "#f0608c ",
-    "second" : "#5caeff",
-    "green" : "#36a592"
   },
   "eslintConfig": {
     "extends": "react-app"

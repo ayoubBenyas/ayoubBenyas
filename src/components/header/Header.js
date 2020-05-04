@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import {Fade} from "react-reveal";
+import { me } from "../../portfolio";
 
 function Header() {
   return (
@@ -8,9 +9,9 @@ function Header() {
     <div>
       <header className="header">
         <a href="" className="logo">
-          <span className="grey-color"> {'{'}  </span>
-          <span className="logo-name">Ayoub Benyas</span>
-          <span className="grey-color"> };</span>
+          <span className="grey-color">{'{'}</span>
+          <span className="logo-name">{me.fullName}</span>
+          <span className="grey-color">};</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
@@ -39,14 +40,3 @@ function Header() {
   );
 }
 export default Header;
-/*
-          <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
-          </li>
-          <li>
-            <a href="#educations">Educations</a>
-          </li>
-*/

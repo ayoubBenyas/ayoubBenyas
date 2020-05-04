@@ -7,13 +7,24 @@
   margin-bottom: 30px;
 }
 
-.starup-project-image > img {
-  max-width: 100%;
-  height: auto;
+
+.card{
+    padding: 10px;
+}
+.card-image img{
+  height: 140px;
+  width : auto;
+}
+
+
+.card-title{
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .project-card-head {
-  color: rgb(36, 41, 46);
   font-size: 25px;
   font-weight: 700;
   letter-spacing: -0.5px;
@@ -36,6 +47,10 @@
 @media (max-width: 768px) {
   .starup-project-image {
     display: none;
+  }
+  .card-image img{
+    height: 140px;
+    width : 100%;
   }
   .project-subtitle{
     font-size: 16px;

@@ -43,17 +43,9 @@
 
 /* Media Query */
 
-@media (max-width: 1456px) {
-    .skills-bar {
-        line-height: 4rem;
-    }
-    .skills-image {
-        display: none;
-        order: 2;
-    }
-}
 
-@media (max-width: 768px) {
+
+@media (max-width: 800px) {
     .skills-container {
         flex-direction: column
     }

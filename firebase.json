@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "ayoub-benyas",
     "public": "build",
     "ignore": [
       "firebase.json",

@@ -47,7 +47,7 @@
 }
 
 /* Media Query */
-@media (max-width: 1380px), (max-width: 768px) {
+@media (max-width: 800px) {
     .contact-title {
         font-size: 56px;
         font-weight: 400;
